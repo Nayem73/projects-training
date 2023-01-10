@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-eqiv="X-UA-Compatible>" content="IE=edge">
+<title>Personal portfolio website </title>
+<!---custom css link--->
+<style>
+@keyframes sliding {
+0%{
+left:0;
+top:0;
+}
+25%{
+left:270px;
+top:0;
+}
+50%{
+left:270px;
+top:150px;
+}
+75%{
+left:0;
+top:150px;
+}
+100%{
+left:0;
+top:0;
+}
+}
+.square{
+height:250px;
+width:370px;
+background-color:green;
+}
+.circle{
+height:100px;
+width:100px;
+border-radius:50%;
+position:relative;
+background-color:red;
+animation:sliding 4s ease-in-out 0.2s infinite alternate;
+animation-play-state:running;
+}
+</style>
+</head>
+<body>
+<div class="square" >
+<div class="circle" >
+</div>
+</div>
+</body>
+</html>
