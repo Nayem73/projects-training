@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class StudentService {
-    public List<Student> hello() {
+    public List<Student> getStudents() {
 //		return List.of("hello", "world");
 //		List<String> tmp = new ArrayList<>();
 //		tmp.add("hello");
