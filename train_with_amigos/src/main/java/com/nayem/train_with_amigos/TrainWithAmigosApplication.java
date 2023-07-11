@@ -34,6 +34,13 @@ public class TrainWithAmigosApplication {
 						LocalDate.of(1995, Month.MAY, 30),
 						21
 
+				),
+				new Student(
+						2L,
+						"Jim",
+						"jim123@gmail.com",
+						LocalDate.of(2008,Month.AUGUST, 18),
+						13
 				)
 		);
 	}
