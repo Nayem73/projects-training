@@ -1,5 +1,6 @@
 package com.Nayem.controller;
 
+import com.Nayem.model.UserModel;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,7 +12,11 @@ public class UserController {
     }
 
     @GetMapping("/getUser")
-    public String getUser() {
-        return "Mohammad Nayem Mehedi";
+    public UserModel getUser() {
+        return new UserModel(
+                "Nayem",
+                "Mehedi",
+                180122
+        );
     }
 }
