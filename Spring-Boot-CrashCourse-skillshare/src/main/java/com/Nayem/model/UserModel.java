@@ -5,6 +5,10 @@ public class UserModel {
     private String lastName;
     private Integer membershipId;
 
+    public  UserModel() {
+
+    }
+
     public UserModel(String firstName, String lastName, Integer membershipId) {
         this.firstName = firstName;
         this.lastName = lastName;
