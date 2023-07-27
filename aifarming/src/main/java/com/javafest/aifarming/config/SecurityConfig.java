@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
-import org.springframework.security.web.SecurityFilterChain;gggggggggggggggggggggg
+import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
@@ -35,8 +35,14 @@ public class SecurityConfig {
     @Bean
     //authorization stuff
     //which endpoints
-    public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) {
-
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        return http.csrf().disable()
+                .authorizeHttpRequests()
+                .requestMatchers("/api/crops/").permitAll()
+                .and()
+                .authorizeHttpRequests().requestMatchers("/api/**").authenticated()
+                .and().formLogin()
+                .and().build();
     }
 
     @Bean
