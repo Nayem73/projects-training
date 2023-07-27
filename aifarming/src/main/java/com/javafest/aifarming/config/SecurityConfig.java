@@ -21,17 +21,18 @@ public class SecurityConfig {
     @Bean
     //authentication stuff
     public UserDetailsService userDetailsService(PasswordEncoder encoder) {
-        UserDetails admin = User.withUsername("nayem")
-                .password(encoder.encode("root"))
-                .roles("ADMIN")
-                .build();
-
-        UserDetails user = User.withUsername("himel")
-                .password(encoder.encode("root"))
-                .roles("USER")
-                .build();
-
-        return new InMemoryUserDetailsManager(admin, user);
+//        UserDetails admin = UserInfo.withUsername("nayem")
+//                .password(encoder.encode("root"))
+//                .roles("ADMIN")
+//                .build();
+//
+//        UserDetails user = UserInfo.withUsername("himel")
+//                .password(encoder.encode("root"))
+//                .roles("USER")
+//                .build();
+//
+//        return new InMemoryUserDetailsManager(admin, user);
+        return new UserInfoUserDetailsService();
     }
 
     @Bean
@@ -40,7 +41,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http.csrf().disable()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/crops/").permitAll()
+                .requestMatchers("/api/crops/", "/signup").permitAll()
                 .and()
                 .authorizeHttpRequests().requestMatchers("/api/**").authenticated()
                 .and().formLogin()
