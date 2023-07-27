@@ -80,6 +80,7 @@ public class CropController {
 
 
     @PutMapping("/{id}")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     public Crop updateCrop(@PathVariable Long id, @RequestBody Crop updatedCrop) {
         Crop crop = cropRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Invalid Crop ID: " + id));
@@ -90,6 +91,7 @@ public class CropController {
     }
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     public void deleteCrop(@PathVariable Long id) {
         Crop crop = cropRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Invalid Crop ID: " + id));

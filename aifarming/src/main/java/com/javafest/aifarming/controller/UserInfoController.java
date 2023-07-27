@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Optional;
+
 @RestController
 public class UserInfoController {
     private final UserInfoRepository userInfoRepository;
@@ -21,8 +23,20 @@ public class UserInfoController {
 
     @PostMapping("/signup")
     public String addNewUser(@RequestBody UserInfo userInfo) {
-        userInfo.setPassword(passwordEncoder.encode(userInfo.getPassword()));
-        userInfoRepository.save(userInfo);
-        return "user added successfully";
+        Optional<UserInfo> existingUser = userInfoRepository.findByUserName(userInfo.getUserName());
+        Optional<UserInfo> existingUserByEmail = userInfoRepository.findByEmail(userInfo.getEmail());
+        if (existingUser.isPresent()) {
+            // User already exists, return an error message
+            return "Error: User already exists!";
+        } else if (existingUserByEmail.isPresent()) {
+            //User with this email already exists
+            return "Error: Use  User with this email already exists";
+        }
+        else {
+            // Encode the password and save the new user
+            userInfo.setPassword(passwordEncoder.encode(userInfo.getPassword()));
+            userInfoRepository.save(userInfo);
+            return "user added successfully";
+        }
     }
 }
