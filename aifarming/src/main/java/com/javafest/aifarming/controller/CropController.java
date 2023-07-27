@@ -28,15 +28,15 @@ public class CropController {
         this.cropCategoryRepository = cropCategoryRepository;
     }
 
-    @PostMapping("/login-success")
-    public ResponseEntity<String> loginSuccess() {
-        return ResponseEntity.ok("Login successful!");
-    }
-
-    @PostMapping("/login-failure")
-    public ResponseEntity<String> loginFailure() {
-        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Login failed!");
-    }
+//    @PostMapping("/login-success")
+//    public ResponseEntity<String> loginSuccess() {
+//        return ResponseEntity.ok("Login successful!");
+//    }
+//
+//    @PostMapping("/login-failure")
+//    public ResponseEntity<String> loginFailure() {
+//        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Login failed!");
+//    }
 
     @GetMapping("/user")
     public ResponseEntity<String> getCurrentUser() {
