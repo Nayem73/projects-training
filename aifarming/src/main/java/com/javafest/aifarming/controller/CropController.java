@@ -5,6 +5,7 @@ import com.javafest.aifarming.model.CropCategory;
 import com.javafest.aifarming.repository.CropCategoryRepository;
 import com.javafest.aifarming.repository.CropRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
@@ -34,6 +35,7 @@ public class CropController {
     }
 
     @GetMapping("/crops")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     public List<Crop> getCropsByDisease(@RequestParam(value = "crop", required = false) String categoryTitle,
                                         @RequestParam(value = "disease", required = false) String disease,
                                         @RequestParam(value = "search", required = false) String search) {
@@ -56,6 +58,7 @@ public class CropController {
     }
 
     @PostMapping
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     public Crop addCrop(@RequestBody Crop crop) {
         // Check if the Crop already exists in the database based on CropCategory ID and disease
         List<Crop> existingCrops = cropRepository.findByCategoryIdAndDiseaseExact(
