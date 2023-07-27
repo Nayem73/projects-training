@@ -30,7 +30,7 @@ public class UserInfoController {
             return "Error: User already exists!";
         } else if (existingUserByEmail.isPresent()) {
             //User with this email already exists
-            return "Error: Use  User with this email already exists";
+            return "Error: User with this email already exists";
         }
         else {
             // Encode the password and save the new user
