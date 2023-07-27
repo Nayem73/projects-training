@@ -5,6 +5,10 @@ import com.javafest.aifarming.model.UserInfo;
 import com.javafest.aifarming.repository.UserInfoRepository;
 import com.javafest.aifarming.service.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,14 +20,15 @@ import java.util.Optional;
 public class UserInfoController {
     private final UserInfoRepository userInfoRepository;
     private PasswordEncoder passwordEncoder;
-
     private final JwtService jwtService;
+    private AuthenticationManager authenticationManager;
 
     @Autowired
-    public UserInfoController(UserInfoRepository userInfoRepository, PasswordEncoder passwordEncoder, JwtService jwtService) {
+    public UserInfoController(UserInfoRepository userInfoRepository, PasswordEncoder passwordEncoder, JwtService jwtService, AuthenticationManager authenticationManager) {
         this.userInfoRepository = userInfoRepository;
         this.passwordEncoder = passwordEncoder;
         this.jwtService = jwtService;
+        this.authenticationManager = authenticationManager;
     }
 
     @PostMapping("/signup")
@@ -68,8 +73,14 @@ public class UserInfoController {
 //        }
 //    }
 
-    @PostMapping("/authenticate")
+    @PostMapping("/signin")
     public String authenticateAndGetToken(@RequestBody AuthRequest authRequest) {
-        return jwtService.generateToken(authRequest.getUserName());
+        Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authRequest.getUserName(), authRequest.getPassword()));
+        if (authentication.isAuthenticated()) {
+            return jwtService.generateToken(authRequest.getUserName());
+        } else {
+            throw new UsernameNotFoundException("invalid username or password");
+        }
+
     }
 }
