@@ -39,4 +39,27 @@ public class UserInfoController {
             return "user added successfully";
         }
     }
+
+    @PostMapping("/login")
+    public String login(@RequestBody UserInfo loginRequest) {
+        String username = loginRequest.getUserName();
+        String password = loginRequest.getPassword();
+
+        // Retrieve the user with the provided username from the database
+        UserInfo user = userInfoRepository.findByUserName(username).orElse(null);
+
+        if (user != null) {
+            // Check if the password matches
+            if (passwordEncoder.matches(password, user.getPassword())) {
+                // Password is correct, log in the user
+                return "Login successful!";
+            } else {
+                // Incorrect password
+                return "Error: Incorrect password!";
+            }
+        } else {
+            // User does not exist
+            return "Error: User not found!";
+        }
+    }
 }
