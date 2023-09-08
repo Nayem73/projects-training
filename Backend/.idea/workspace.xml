@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="833f1174-4260-41ca-801d-eb5e1f207614" name="Changes" comment="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="833f1174-4260-41ca-801d-eb5e1f207614" name="Changes" comment="backend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +71,7 @@
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/tmp_project/aifarming",
+    "last_opened_file_path": "C:/Spring_Boot_Training/Backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -173,14 +171,7 @@
       <workItem from="1693872093610" duration="14467000" />
       <workItem from="1693990409015" duration="5000" />
       <workItem from="1694147983728" duration="1197000" />
-    </task>
-    <task id="LOCAL-00063" summary="pagination added to api/disease/">
-      <option name="closed" value="true" />
-      <created>1692798163206</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1692798163207</updated>
+      <workItem from="1694151798131" duration="447000" />
     </task>
     <task id="LOCAL-00064" summary="in DiseaseController localhost:8080/api/disease?crop=Potato is now working or localhost:8080/api/disease?crop=Potato&amp;se will return all disease with crop=potato">
       <option name="closed" value="true" />
@@ -566,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693670550982</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="backend">
+      <option name="closed" value="true" />
+      <created>1694152009641</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1694152009642</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +630,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="modified UserInfoController to add isSubscribed" />
     <MESSAGE value="modified UserInfoController to add isSubscribed. Needs testing" />
     <MESSAGE value="added isSubscribed field in SuperAdminService" />
     <MESSAGE value="for frontEnd testing, returning paymentUrl not as view(return type String as redirect link) but as ResponseEntity" />
@@ -656,7 +654,8 @@
     <MESSAGE value="updated jar file for docker after extracting the serverUrl instead of hardcoding it." />
     <MESSAGE value="security issue fixed for creating a Super Admin" />
     <MESSAGE value="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;" />
+    <MESSAGE value="backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
