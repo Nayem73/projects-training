@@ -4,6 +4,7 @@ import com.javafest.aifarming.dto.AuthRequest;
 import com.javafest.aifarming.model.UserInfo;
 import com.javafest.aifarming.repository.UserInfoRepository;
 import com.javafest.aifarming.service.JwtService;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -82,5 +83,16 @@ public class UserInfoController {
             throw new UsernameNotFoundException("invalid username or password");
         }
 
+    }
+
+    @PostMapping("/signout")
+    public String logout(HttpServletRequest request) {
+        String authHeader = request.getHeader("Authorization");
+        if (authHeader != null && authHeader.startsWith("Bearer")) {
+            String token = authHeader.substring(7);
+            jwtService.addToBlacklist(token);
+            return "Logged out successfully";
+        }
+        return "Logout failed";
     }
 }

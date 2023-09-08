@@ -60,7 +60,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http.csrf().disable()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/crops/", "/signup", "/login", "/authenticate", "/signin").permitAll()
+                .requestMatchers("/api/crops/", "/signup", "/login", "/authenticate", "/signin", "/signout").permitAll()
                 .and()
                 .authorizeHttpRequests().requestMatchers("/api/**").authenticated()
                 .and()
