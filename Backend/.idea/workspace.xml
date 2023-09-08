@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="833f1174-4260-41ca-801d-eb5e1f207614" name="Changes" comment="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a4c01435-5efe-4b9d-a6da-581fd43a1ff4" />
+        <option name="url" value="https://github.com/Nayem73/AI-Farming.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2T110O97uiiPkKYGGMk8r9zgyd1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/tmp_project/aifarming",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "7e6b0b81edc5b39dabeab2fbc61e0c9f",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javafest.aifarming.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AifarmingApplication">
+    <configuration name="AifarmingApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.javafest.aifarming.AifarmingApplication" />
+      <module name="aifarming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javafest.aifarming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AifarmingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="aifarming" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javafest.aifarming.AifarmingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AifarmingApplication" />
+      <item itemvalue="Spring Boot.AifarmingApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="833f1174-4260-41ca-801d-eb5e1f207614" name="Changes" comment="" />
+      <created>1690195555490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690195555490</updated>
+      <workItem from="1690195557380" duration="2703000" />
+      <workItem from="1690204803947" duration="69652000" />
+      <workItem from="1690379918861" duration="34898000" />
+      <workItem from="1690518680864" duration="72000" />
+      <workItem from="1690518782223" duration="29000" />
+      <workItem from="1690518838635" duration="9977000" />
+      <workItem from="1690544033348" duration="4930000" />
+      <workItem from="1690604613850" duration="2061000" />
+      <workItem from="1690607850721" duration="35112000" />
+      <workItem from="1690689890258" duration="81391000" />
+      <workItem from="1690982637450" duration="26357000" />
+      <workItem from="1691043065169" duration="101000" />
+      <workItem from="1691043341702" duration="3419000" />
+      <workItem from="1691048963248" duration="18254000" />
+      <workItem from="1691131032024" duration="7634000" />
+      <workItem from="1691323573220" duration="11921000" />
+      <workItem from="1691341036577" duration="128000" />
+      <workItem from="1691414641888" duration="97000" />
+      <workItem from="1692428595877" duration="6197000" />
+      <workItem from="1692605968840" duration="24577000" />
+      <workItem from="1692704472024" duration="3538000" />
+      <workItem from="1692709360671" duration="977000" />
+      <workItem from="1692710344150" duration="152000" />
+      <workItem from="1692710579528" duration="2062000" />
+      <workItem from="1692780755112" duration="17785000" />
+      <workItem from="1692838494911" duration="24095000" />
+      <workItem from="1692919759456" duration="68597000" />
+      <workItem from="1693234566187" duration="768000" />
+      <workItem from="1693236687099" duration="48687000" />
+      <workItem from="1693354178583" duration="9045000" />
+      <workItem from="1693384078429" duration="16767000" />
+      <workItem from="1693438751806" duration="13914000" />
+      <workItem from="1693545737827" duration="1066000" />
+      <workItem from="1693547479173" duration="10401000" />
+      <workItem from="1693562828753" duration="7854000" />
+      <workItem from="1693620771104" duration="2023000" />
+      <workItem from="1693656472591" duration="2221000" />
+      <workItem from="1693660568096" duration="5694000" />
+      <workItem from="1693731010312" duration="3393000" />
+      <workItem from="1693807401721" duration="1915000" />
+      <workItem from="1693872093610" duration="14467000" />
+      <workItem from="1693990409015" duration="5000" />
+      <workItem from="1694147983728" duration="1197000" />
+    </task>
+    <task id="LOCAL-00063" summary="pagination added to api/disease/">
+      <option name="closed" value="true" />
+      <created>1692798163206</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1692798163207</updated>
+    </task>
+    <task id="LOCAL-00064" summary="in DiseaseController localhost:8080/api/disease?crop=Potato is now working or localhost:8080/api/disease?crop=Potato&amp;se will return all disease with crop=potato">
+      <option name="closed" value="true" />
+      <created>1692799217072</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1692799217072</updated>
+    </task>
+    <task id="LOCAL-00065" summary="solved a problem in DiseaseController api/disease? and added pagination Alhamdulillah">
+      <option name="closed" value="true" />
+      <created>1692805643911</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1692805643911</updated>
+    </task>
+    <task id="LOCAL-00066" summary="solved a problem in DiseaseController api/disease? and added pagination Alhamdulillah.">
+      <option name="closed" value="true" />
+      <created>1692805841678</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1692805841678</updated>
+    </task>
+    <task id="LOCAL-00067" summary="solved a problem in DiseaseController api/disease? and added pagination Alhamdulillah.">
+      <option name="closed" value="true" />
+      <created>1692805969764</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1692805969764</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Pagination removed from DiseasePictureController&#10;Added PutMapping &amp; DeleteMapping in UserReviewController">
+      <option name="closed" value="true" />
+      <created>1692843894758</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1692843894759</updated>
+    </task>
+    <task id="LOCAL-00069" summary="added some error message when any of the title or img or cropId is not selected in PostMapping(/disease/&quot;) from DiseaseController">
+      <option name="closed" value="true" />
+      <created>1692846650786</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1692846650786</updated>
+    </task>
+    <task id="LOCAL-00070" summary="changed &quot;error&quot; to &quot;message&quot; when returning an error message">
+      <option name="closed" value="true" />
+      <created>1692847089979</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1692847089979</updated>
+    </task>
+    <task id="LOCAL-00071" summary="excluded the &quot;description&quot; property from being returned in the response for /api/disease/">
+      <option name="closed" value="true" />
+      <created>1692864054772</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1692864054772</updated>
+    </task>
+    <task id="LOCAL-00072" summary="added LocalDateTime to UserReview and formatted it to String using DateTimeFormatter in UserReviewController">
+      <option name="closed" value="true" />
+      <created>1692883908564</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1692883908564</updated>
+    </task>
+    <task id="LOCAL-00073" summary="limit comment size to 200 characters in UserReviewController">
+      <option name="closed" value="true" />
+      <created>1692885309452</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1692885309452</updated>
+    </task>
+    <task id="LOCAL-00074" summary="changed description to comment">
+      <option name="closed" value="true" />
+      <created>1692973742911</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1692973742912</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Alhamdulillah learnt something new by using ResponseEntity&lt;?&gt; instead of ResponseEntity&lt;List&lt;Map&lt;String, Object&gt;&gt;&gt;">
+      <option name="closed" value="true" />
+      <created>1693021600624</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1693021600624</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Also used ResponseEntity&lt;?&gt; for api/disease/{cropTitle}/{diseaseTitle}">
+      <option name="closed" value="true" />
+      <created>1693055447534</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1693055447534</updated>
+    </task>
+    <task id="LOCAL-00077" summary="SSLCommerz: store_id and store_password in TransactionInitiator.java and TransactionResponseValidator.java page. Also in  store id and store password in page SSLCommerz.java file at Line number:66(inside setSSLCzTestMode method).&#10;&#10;inside constructRequestParameters() method of ParameterBuilder class, changed baseUrl from localhost:9000 to localhost:8080&#10;&#10;Also created a new controller class PaymentController">
+      <option name="closed" value="true" />
+      <created>1693142370645</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1693142370645</updated>
+    </task>
+    <task id="LOCAL-00078" summary="changed made in pom.xml for SSLCommerz">
+      <option name="closed" value="true" />
+      <created>1693142419547</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1693142419547</updated>
+    </task>
+    <task id="LOCAL-00079" summary="SSLCommerz">
+      <option name="closed" value="true" />
+      <created>1693151373898</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1693151373898</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Alhamdulillah hitting api/payment will redirect to SSLCommerz payment link">
+      <option name="closed" value="true" />
+      <created>1693185251108</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1693185251108</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Alhamdulillah Payment successful!">
+      <option name="closed" value="true" />
+      <created>1693204959974</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1693204959974</updated>
+    </task>
+    <task id="LOCAL-00082" summary="generate uniqueTransId">
+      <option name="closed" value="true" />
+      <created>1693205454300</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1693205454300</updated>
+    </task>
+    <task id="LOCAL-00083" summary="authorization with ModHeader extension">
+      <option name="closed" value="true" />
+      <created>1693211413421</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1693211413421</updated>
+    </task>
+    <task id="LOCAL-00084" summary="PaymentController is now in Controller package">
+      <option name="closed" value="true" />
+      <created>1693211854745</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1693211854745</updated>
+    </task>
+    <task id="LOCAL-00085" summary="changed error message">
+      <option name="closed" value="true" />
+      <created>1693229352290</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1693229352290</updated>
+    </task>
+    <task id="LOCAL-00086" summary="PaymentInfo is being saved in database. Alhamdulillah">
+      <option name="closed" value="true" />
+      <created>1693238536289</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1693238536290</updated>
+    </task>
+    <task id="LOCAL-00087" summary="modified UserInfoController to add isSubscribed. Needs testing">
+      <option name="closed" value="true" />
+      <created>1693244533130</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1693244533130</updated>
+    </task>
+    <task id="LOCAL-00088" summary="added isSubscribed field in SuperAdminService">
+      <option name="closed" value="true" />
+      <created>1693245726125</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1693245726125</updated>
+    </task>
+    <task id="LOCAL-00089" summary="for frontEnd testing, returning paymentUrl not as view(return type String as redirect link) but as ResponseEntity">
+      <option name="closed" value="true" />
+      <created>1693265881319</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1693265881319</updated>
+    </task>
+    <task id="LOCAL-00090" summary="redirected payment success link to api/profile">
+      <option name="closed" value="true" />
+      <created>1693267181548</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1693267181548</updated>
+    </task>
+    <task id="LOCAL-00091" summary="added isSubscribed() check in UserInfo">
+      <option name="closed" value="true" />
+      <created>1693274854107</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1693274854107</updated>
+    </task>
+    <task id="LOCAL-00092" summary="added get request for /api/issubscribed/">
+      <option name="closed" value="true" />
+      <created>1693275768946</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1693275768946</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Alhamdulillah All 4 of SubscriptionAmount completed: SubscriptionAmount, SubscriptionAmountController, SubscriptionAmountRepository, SubscriptionAmountService">
+      <option name="closed" value="true" />
+      <created>1693279431128</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1693279431128</updated>
+    </task>
+    <task id="LOCAL-00094" summary="get All Payment History form /api/admin/subscriptions">
+      <option name="closed" value="true" />
+      <created>1693282170534</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1693282170534</updated>
+    </task>
+    <task id="LOCAL-00095" summary=".">
+      <option name="closed" value="true" />
+      <created>1693285205680</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1693285205680</updated>
+    </task>
+    <task id="LOCAL-00096" summary="frontEnd's payment success is now working">
+      <option name="closed" value="true" />
+      <created>1693288464448</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1693288464448</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Alhamdulillah Real meaning behind generating a TranId. It is generated on user side and is saved with the user. then it is used to find the corresponding user on the server side and make him subscribed">
+      <option name="closed" value="true" />
+      <created>1693309962865</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1693309962865</updated>
+    </task>
+    <task id="LOCAL-00098" summary="if already a subscribed_user, don't let him/her to payment gateway again.">
+      <option name="closed" value="true" />
+      <created>1693310577307</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1693310577307</updated>
+    </task>
+    <task id="LOCAL-00099" summary="fixed SearchCount for subscribed users.">
+      <option name="closed" value="true" />
+      <created>1693326784704</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1693326784704</updated>
+    </task>
+    <task id="LOCAL-00100" summary="set multipart file max size to 10MB">
+      <option name="closed" value="true" />
+      <created>1693329406361</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1693329406361</updated>
+    </task>
+    <task id="LOCAL-00101" summary="added NotificationInfo and used it for DiseaseController PostMapping and PaymentController Payment success. Need to test it by adding Controller class">
+      <option name="closed" value="true" />
+      <created>1693368698107</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1693368698107</updated>
+    </task>
+    <task id="LOCAL-00102" summary="added NotificationInfo and used it for DiseaseController PostMapping and PaymentController Payment success. Need to test it by adding Controller class">
+      <option name="closed" value="true" />
+      <created>1693368746420</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1693368746420</updated>
+    </task>
+    <task id="LOCAL-00103" summary="added functionality for sending notification to all users when a new disease is added or payment for subscription fee is completed for a specific user. api/notification/ will get 5 most recent notifications. api/notification/{notificationId} will delete it with DeleteMapping.">
+      <option name="closed" value="true" />
+      <created>1693392193002</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1693392193002</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Alhamdulillah added @PatchMapping(&quot;/changepassword/&quot;)">
+      <option name="closed" value="true" />
+      <created>1693397323493</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1693397323493</updated>
+    </task>
+    <task id="LOCAL-00105" summary="added api/notification/count/ which counts total unread notifications of a user.&#10;added GetMapping for api/notification/ to mark status as true">
+      <option name="closed" value="true" />
+      <created>1693415397053</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1693415397053</updated>
+    </task>
+    <task id="LOCAL-00106" summary="countLast5Notifications that are unread. &amp; change /api/{notificationId} to GetMapping">
+      <option name="closed" value="true" />
+      <created>1693476931490</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1693476931492</updated>
+    </task>
+    <task id="LOCAL-00107" summary="jar file for running in docker">
+      <option name="closed" value="true" />
+      <created>1693477306508</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1693477306508</updated>
+    </task>
+    <task id="LOCAL-00108" summary="extracting the serverUrl instead of hardcoding it.">
+      <option name="closed" value="true" />
+      <created>1693479468596</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1693479468597</updated>
+    </task>
+    <task id="LOCAL-00109" summary="updated jar file for docker after extracting the serverUrl instead of hardcoding it.">
+      <option name="closed" value="true" />
+      <created>1693482052974</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1693482052975</updated>
+    </task>
+    <task id="LOCAL-00110" summary="security issue fixed for creating a Super Admin">
+      <option name="closed" value="true" />
+      <created>1693577177808</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1693577177809</updated>
+    </task>
+    <task id="LOCAL-00111" summary="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;">
+      <option name="closed" value="true" />
+      <created>1693670550981</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1693670550982</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="9d4d2e9d-662f-46ce-bd42-49a4a936f7c1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:C:/Spring_Boot_Training/aifarming" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="9d4d2e9d-662f-46ce-bd42-49a4a936f7c1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Spring-Boot-Backend" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Spring_Boot_Training/aifarming" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="modified UserInfoController to add isSubscribed" />
+    <MESSAGE value="modified UserInfoController to add isSubscribed. Needs testing" />
+    <MESSAGE value="added isSubscribed field in SuperAdminService" />
+    <MESSAGE value="for frontEnd testing, returning paymentUrl not as view(return type String as redirect link) but as ResponseEntity" />
+    <MESSAGE value="redirected payment success link to api/profile" />
+    <MESSAGE value="added isSubscribed() check in UserInfo" />
+    <MESSAGE value="added get request for /api/issubscribed/" />
+    <MESSAGE value="Alhamdulillah All 4 of SubscriptionAmount completed: SubscriptionAmount, SubscriptionAmountController, SubscriptionAmountRepository, SubscriptionAmountService" />
+    <MESSAGE value="get All Payment History form /api/admin/subscriptions" />
+    <MESSAGE value="." />
+    <MESSAGE value="frontEnd's payment success is now working" />
+    <MESSAGE value="Alhamdulillah Real meaning behind generating a TranId. It is generated on user side and is saved with the user. then it is used to find the corresponding user on the server side and make him subscribed" />
+    <MESSAGE value="if already a subscribed_user, don't let him/her to payment gateway again." />
+    <MESSAGE value="fixed SearchCount for subscribed users." />
+    <MESSAGE value="set multipart file max size to 10MB" />
+    <MESSAGE value="added NotificationInfo and used it for DiseaseController PostMapping and PaymentController Payment success. Need to test it by adding Controller class" />
+    <MESSAGE value="added functionality for sending notification to all users when a new disease is added or payment for subscription fee is completed for a specific user. api/notification/ will get 5 most recent notifications. api/notification/{notificationId} will delete it with DeleteMapping." />
+    <MESSAGE value="Alhamdulillah added @PatchMapping(&quot;/changepassword/&quot;)" />
+    <MESSAGE value="added api/notification/count/ which counts total unread notifications of a user.&#10;added GetMapping for api/notification/ to mark status as true" />
+    <MESSAGE value="countLast5Notifications that are unread. &amp; change /api/{notificationId} to GetMapping" />
+    <MESSAGE value="jar file for running in docker" />
+    <MESSAGE value="extracting the serverUrl instead of hardcoding it." />
+    <MESSAGE value="updated jar file for docker after extracting the serverUrl instead of hardcoding it." />
+    <MESSAGE value="security issue fixed for creating a Super Admin" />
+    <MESSAGE value="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.PersistentObjectException" package="org.hibernate" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
