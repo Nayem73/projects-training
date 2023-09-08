@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="833f1174-4260-41ca-801d-eb5e1f207614" name="Changes" comment="backend" />
+    <list default="true" id="833f1174-4260-41ca-801d-eb5e1f207614" name="Changes" comment=".gitignore was missing">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fca0953-c0a8-4da6-b00e-c50332583854.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3fca0953-c0a8-4da6-b00e-c50332583854.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +43,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="a4c01435-5efe-4b9d-a6da-581fd43a1ff4" />
-        <option name="url" value="https://github.com/Nayem73/AI-Farming.git" />
+        <option name="url" value="https://github.com/Nayem73/projects-training" />
       </UrlAndAccount>
     </option>
   </component>
@@ -71,7 +78,7 @@
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/My_Projects/aifarming/Backend",
+    "last_opened_file_path": "C:/Spring_Boot_Training/Backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -171,15 +178,8 @@
       <workItem from="1693872093610" duration="14467000" />
       <workItem from="1693990409015" duration="5000" />
       <workItem from="1694147983728" duration="1197000" />
-      <workItem from="1694151798131" duration="1248000" />
-    </task>
-    <task id="LOCAL-00064" summary="in DiseaseController localhost:8080/api/disease?crop=Potato is now working or localhost:8080/api/disease?crop=Potato&amp;se will return all disease with crop=potato">
-      <option name="closed" value="true" />
-      <created>1692799217072</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1692799217072</updated>
+      <workItem from="1694151798131" duration="1843000" />
+      <workItem from="1694192127499" duration="4580000" />
     </task>
     <task id="LOCAL-00065" summary="solved a problem in DiseaseController api/disease? and added pagination Alhamdulillah">
       <option name="closed" value="true" />
@@ -565,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694152009642</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary=".gitignore was missing">
+      <option name="closed" value="true" />
+      <created>1694193261471</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1694193261471</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +638,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="modified UserInfoController to add isSubscribed. Needs testing" />
     <MESSAGE value="added isSubscribed field in SuperAdminService" />
     <MESSAGE value="for frontEnd testing, returning paymentUrl not as view(return type String as redirect link) but as ResponseEntity" />
     <MESSAGE value="redirected payment success link to api/profile" />
@@ -655,7 +662,8 @@
     <MESSAGE value="security issue fixed for creating a Super Admin" />
     <MESSAGE value="java -jar aifarming-0.0.1-SNAPSHOT.jar --server.port=8080 &lt;superAdminUsername&gt; &lt;email&gt; &lt;password&gt;" />
     <MESSAGE value="backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend" />
+    <MESSAGE value=".gitignore was missing" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore was missing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
