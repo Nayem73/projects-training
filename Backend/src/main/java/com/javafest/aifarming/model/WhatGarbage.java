@@ -1,5 +1,6 @@
 package com.javafest.aifarming.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -29,6 +30,7 @@ public class WhatGarbage {
             orphanRemoval = true,
             cascade = CascadeType.ALL
     )
+    @JsonIgnore // Add this annotation to break the circular reference
     private List<WhatGarbagePicture> whatGarbagePictures;
 
     public WhatGarbage() {
