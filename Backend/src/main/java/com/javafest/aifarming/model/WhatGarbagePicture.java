@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 public class WhatGarbagePicture {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    private Long id;
     private String img;
 
     @ManyToOne

@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1835d91e-2e23-40f2-87c8-bf24950d9841" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/Garbage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/Garbage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/repository/GarbageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/repository/GarbageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbagePicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbagePicture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/repository/WhatGarbageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/repository/WhatGarbageRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>

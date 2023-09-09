@@ -18,18 +18,26 @@ public class WhatGarbage {
             name = "what_garbage_id",
             referencedColumnName = "id",
             nullable = false,
-            foreignKey = @ForeignKey(name = "what_garbage_foreign_key")
+            foreignKey = @ForeignKey(
+                    name = "what_garbage_foreign_key"
+            )
     )
     private Garbage garbage;
 
     @OneToMany(
-            mappedBy = "what_garbage",
+            mappedBy = "whatGarbage",
             orphanRemoval = true,
             cascade = CascadeType.ALL
     )
     private List<WhatGarbagePicture> whatGarbagePictures;
 
     public WhatGarbage() {
+    }
+
+    public WhatGarbage(String title, String img, String description) {
+        this.title = title;
+        this.img = img;
+        this.description = description;
     }
 
     public WhatGarbage(String title, String img, String description, Garbage garbage) {

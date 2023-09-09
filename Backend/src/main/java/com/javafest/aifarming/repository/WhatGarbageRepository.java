@@ -1,7 +1,6 @@
 package com.javafest.aifarming.repository;
 
 import com.javafest.aifarming.model.WhatGarbage;
-import com.javafest.aifarming.model.WhatGarbagePicture;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -22,7 +21,7 @@ public interface WhatGarbageRepository extends JpaRepository<WhatGarbage, Long> 
     List<WhatGarbage> findByGarbageIdAndWhatGarbageExact(Long garbageId, String whatGarbageTitle);
 
     @Query("SELECT c FROM WhatGarbage c JOIN FETCH c.garbage cc WHERE cc.title = ?1 AND c.title = ?2")
-    WhatGarbagePicture findByGarbageTitleAndWhatGarbageTitleExact(String garbageTitle, String whatGarbageTitle);
+    WhatGarbage findByGarbageTitleAndWhatGarbageTitleExact(String garbageTitle, String whatGarbageTitle);
 
     @Query("SELECT c FROM WhatGarbage c JOIN FETCH c.garbage cc WHERE cc.title = ?1")
     Page<WhatGarbage> findByTitle(String categoryTitle, Pageable pageable);
