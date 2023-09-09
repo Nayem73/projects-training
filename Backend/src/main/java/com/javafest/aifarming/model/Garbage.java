@@ -2,6 +2,9 @@ package com.javafest.aifarming.model;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static jakarta.persistence.GenerationType.SEQUENCE;
 
 @Entity(name = "Garbage")
@@ -16,6 +19,13 @@ public class Garbage {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
+
+    @OneToMany(
+            mappedBy = "garbage",
+            orphanRemoval = true,
+            cascade = CascadeType.ALL
+    )
+    private List<WhatGarbage> whatGarbages = new ArrayList<>();
 
     public Garbage() {
     }
