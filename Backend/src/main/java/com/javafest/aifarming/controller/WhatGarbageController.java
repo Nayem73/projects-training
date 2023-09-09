@@ -31,7 +31,7 @@ public class WhatGarbageController {
         this.garbageRepository = garbageRepository;
     }
 
-    @GetMapping("/whatgarbage")
+    @GetMapping("/whatgarbage/")
     public ResponseEntity<Page<Map<String, Object>>> getAllWhatGarbage(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
@@ -55,7 +55,43 @@ public class WhatGarbageController {
                 .body(new PageImpl<>(response, pageable, whatGarbagePage.getTotalElements()));
     }
 
-    @PostMapping("/whatgarbage")
+    @GetMapping("/whatgarbage")
+//    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
+    public ResponseEntity<Page<WhatGarbage>> getCropsByDisease(
+            @RequestParam(value = "garbage", required = false) String cropTitle,
+            @RequestParam(value = "whatGarbage", required = false) String diseaseTitle,
+            @RequestParam(value = "search", required = false) String search,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        Page<WhatGarbage> whatGarbages;
+        if (cropTitle != null) {
+            // Case 1: crop is provided, search is optional
+            if (cropTitle.isEmpty()) {
+                diseases = diseaseRepository.findBySearch(search, pageable);
+            } else if ((search == null || search.isEmpty()) && (diseaseTitle == null || diseaseTitle.isEmpty())) {
+                diseases = diseaseRepository.findByTitle(cropTitle, pageable);
+            } else if (diseaseTitle != null) {
+                Disease dis = diseaseRepository.findByCropTitleAndDiseaseTitleExact(cropTitle, diseaseTitle);
+                List<Disease> disList = Collections.singletonList(dis);
+                diseases = new PageImpl<>(disList, pageable, disList.size());
+            }
+            else {
+                diseases = diseaseRepository.findByCategoryTitleAndDisease(cropTitle, search, pageable);
+            }
+        } else if (diseaseTitle != null) {
+            diseases = diseaseRepository.findByDiseaseTitle(diseaseTitle, pageable);
+        } else if (search != null) {
+            diseases = diseaseRepository.findBySearch(search, pageable);
+        } else {
+            // Handle the case when both parameters are missing.
+            // For example, return an error message or an empty list.
+            diseases = new PageImpl<>(Collections.emptyList());
+        }
+        return ResponseEntity.ok(diseases);
+    }
+
+    @PostMapping("/whatgarbage/")
     @PreAuthorize("hasAuthority('ROLE_ADMIN') OR hasAuthority('ROLE_SUPER_ADMIN')")
     public ResponseEntity<Map<String, Object>> addWhatGarbage(
             @RequestParam("title") String title,

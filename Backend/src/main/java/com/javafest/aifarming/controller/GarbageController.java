@@ -20,12 +20,12 @@ public class GarbageController {
     }
 
 
-    @GetMapping
+    @GetMapping("/")
     public List<Garbage> getAllGarbage() {
         return garbageRepository.findAll();
     }
 
-    @PostMapping
+    @PostMapping("/")
     @PreAuthorize("hasAuthority('ROLE_ADMIN') OR hasAuthority('ROLE_SUPER_ADMIN')")
     public ResponseEntity<?> addGarbage(@RequestParam String title) {
         Garbage existingGarbage = garbageRepository.findByTitle(title);

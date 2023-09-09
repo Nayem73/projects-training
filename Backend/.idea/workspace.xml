@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1835d91e-2e23-40f2-87c8-bf24950d9841" name="Changes" comment="">
+    <list default="true" id="1835d91e-2e23-40f2-87c8-bf24950d9841" name="Changes" comment="wow! inside @OneToMany of WhatGarbage class, it will be:&#10;mappedBy = &quot;whatGarbage&quot;;&#10;because inside WhatGarbagePicture class, I've defined the field as WhatGarbage whatGarbage. hence I need to map it by this name(whatGarbge)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbagePicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/model/WhatGarbagePicture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/repository/WhatGarbageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/repository/WhatGarbageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/controller/GarbageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/controller/GarbageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/controller/WhatGarbageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javafest/aifarming/controller/WhatGarbageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,19 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="wow! inside @OneToMany of WhatGarbage class, it will be:&#10;mappedBy = &quot;whatGarbage&quot;;&#10;because inside WhatGarbagePicture class, I've defined the field as WhatGarbage whatGarbage. hence I need to map it by this name(whatGarbge)">
+      <option name="closed" value="true" />
+      <created>1694223787098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694223787098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wow! inside @OneToMany of WhatGarbage class, it will be:&#10;mappedBy = &quot;whatGarbage&quot;;&#10;because inside WhatGarbagePicture class, I've defined the field as WhatGarbage whatGarbage. hence I need to map it by this name(whatGarbge)" />
+    <option name="LAST_COMMIT_MESSAGE" value="wow! inside @OneToMany of WhatGarbage class, it will be:&#10;mappedBy = &quot;whatGarbage&quot;;&#10;because inside WhatGarbagePicture class, I've defined the field as WhatGarbage whatGarbage. hence I need to map it by this name(whatGarbge)" />
   </component>
 </project>
